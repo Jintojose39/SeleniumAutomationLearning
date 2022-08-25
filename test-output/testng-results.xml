@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="18" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-14T15:15:59 IST" name="Loan Department" finished-at="2022-08-14T15:15:59 IST" duration-ms="47">
+    <groups>
+      <group name="Smoke">
+        <method signature="day1.AnnulPersonalLoan()[pri:0, instance:TestNg.day1@e056f20]" name="AnnulPersonalLoan" class="TestNg.day1"/>
+        <method signature="day2.UloanAb()[pri:0, instance:TestNg.day2@9225652]" name="UloanAb" class="TestNg.day2"/>
+        <method signature="day3.LoginCarLoanAPi()[pri:0, instance:TestNg.day3@9353778]" name="LoginCarLoanAPi" class="TestNg.day3"/>
+        <method signature="day4.MobileLoginPersonalloan()[pri:0, instance:TestNg.day4@6580cfdd]" name="MobileLoginPersonalloan" class="TestNg.day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-08-14T15:15:59 IST" name="Regression" finished-at="2022-08-14T15:15:59 IST" duration-ms="47">
+      <class name="TestNg.day3">
+        <test-method signature="LoginCarLoanAPi()[pri:0, instance:TestNg.day3@9353778]" started-at="2022-08-14T15:15:59 IST" name="LoginCarLoanAPi" finished-at="2022-08-14T15:15:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCarLoanAPi -->
+      </class> <!-- TestNg.day3 -->
+      <class name="TestNg.day4">
+        <test-method signature="MobileLoginPersonalloan()[pri:0, instance:TestNg.day4@6580cfdd]" started-at="2022-08-14T15:15:59 IST" name="MobileLoginPersonalloan" finished-at="2022-08-14T15:15:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginPersonalloan -->
+      </class> <!-- TestNg.day4 -->
+      <class name="TestNg.day1">
+        <test-method signature="AnnulPersonalLoan()[pri:0, instance:TestNg.day1@e056f20]" started-at="2022-08-14T15:15:59 IST" name="AnnulPersonalLoan" finished-at="2022-08-14T15:15:59 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AnnulPersonalLoan -->
+      </class> <!-- TestNg.day1 -->
+      <class name="TestNg.day2">
+        <test-method signature="UloanAb()[pri:0, instance:TestNg.day2@9225652]" started-at="2022-08-14T15:15:59 IST" name="UloanAb" finished-at="2022-08-14T15:15:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UloanAb -->
+      </class> <!-- TestNg.day2 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Loan Department -->
+</testng-results>
